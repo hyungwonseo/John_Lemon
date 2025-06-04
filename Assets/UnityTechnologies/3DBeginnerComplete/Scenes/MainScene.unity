@@ -3637,7 +3637,7 @@ PrefabInstance:
     - target: {fileID: 6077229646317852079, guid: e58a8494f35e17f45ba5bbffdfb92517,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3896,7 +3896,7 @@ NavMeshAgent:
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
   m_AutoRepath: 1
-  m_Height: 2
+  m_Height: 1.5
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
@@ -3912,6 +3912,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03fb7c1f9af64db43a99563bede5ce47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rotationSpeed: 10
 --- !u!1001 &6136966654407605910
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4186,7 +4187,7 @@ PrefabInstance:
     - target: {fileID: 4084070957909543365, guid: 7135495ae463a3d448511620e107eaca,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4123261850627719648, guid: 7135495ae463a3d448511620e107eaca,
         type: 3}

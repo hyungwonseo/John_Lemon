@@ -43,12 +43,24 @@ public class PlayerController : MonoBehaviour
 
     void UpdateAnimations()
     {
+        // 직접 애니메이션 플레이
+        //if (movementInput.magnitude > 0)
+        //{
+        //    PlayAnimation("Walk");
+        //}
+        //else
+        //{
+        //    PlayAnimation("Idle");
+        //}
+
+        // 트랜지션을 이용한 애니메이션
         if (movementInput.magnitude > 0)
         {
-            PlayAnimation("Walk");
-        }else
+            animator.SetBool("isWalking", true);
+        }
+        else
         {
-            PlayAnimation("Idle");
+            animator.SetBool("isWalking", false);
         }
     }
 

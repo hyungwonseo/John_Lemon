@@ -23,8 +23,11 @@ public class PlayerNavController : MonoBehaviour
         }
 
         bool isWalking = agent.velocity.magnitude > 0.1f && !agent.isStopped;
-        animator.SetBool("isWalking", isWalking);
-
+        if (animator != null)
+        {
+            animator.SetBool("isWalking", isWalking);
+        }
+        
         if (isWalking)
         {
             // È¸Àü

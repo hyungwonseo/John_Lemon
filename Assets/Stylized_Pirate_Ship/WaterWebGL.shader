@@ -1,4 +1,4 @@
-Shader "Custom/WaterWebGL_TilingFixed"
+Shader "Custom/WaterWebGL"
 {
     Properties
     {
